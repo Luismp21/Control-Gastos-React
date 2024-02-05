@@ -13,5 +13,5 @@ export const formatearFecha = (fecha) => {
     day: '2-digit',
   };
 
-  return fechaNueva.toLocaleDateString('es-ES', opciones)
+  return fechaNueva.toLocaleDateString('es-ES', opciones);
 };
